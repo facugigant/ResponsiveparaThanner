@@ -1,0 +1,310 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=EB+Garamond&family=Gentium+Basic:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=EB+Garamond&family=Gentium+Basic:ital@1&display=swap");
+.Contenedorbody, .titulocontenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.productosass {
+  min-height: 93vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  font-family: 'Gentium Basic', serif;
+  position: relative; }
+  .productosass .Productos {
+    margin: 10px 50px 50px 50px;
+    padding: 50px; }
+    .productosass .Productos .titulocontainer {
+      text-align: center;
+      margin-top: 50px; }
+    .productosass .Productos p {
+      font-size: 20px; }
+  .productosass .video {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+  .productosass .regalo {
+    padding: 50px;
+    font-size: 20px; }
+    .productosass .regalo h3 {
+      text-align: center; }
+  .productosass .cards {
+    width: 100%;
+    margin: 50px;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+    gap: 30px; }
+    .productosass .cards .card {
+      text-align: center; }
+
+/*Menu de navegación*/
+.navbar {
+  background-image: linear-gradient(315deg, #ebbe9b 0%, #e7a977 74%);
+  height: 80px;
+  text-decoration: none;
+  font-size: 20px; }
+  .navbar h1 {
+    font-family: 'EB Garamond', serif;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 35px;
+    padding: 5px; }
+
+/*iNDEX*/
+#container {
+  margin-top: 80;
+  width: 100%;
+  height: 975px;
+  background-image: url(../img/jabones.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.titulocontenedor {
+  background-color: #f2f2ca;
+  border-radius: 20px;
+  opacity: 0.5;
+  padding: 10px;
+  text-align: center;
+  color: black;
+  font-size: 2em; }
+  .titulocontenedor h2 {
+    color: black;
+    font-size: 2em; }
+
+
+h2 {
+  text-align: center;
+  display: inline-block;
+  color: #033f36;
+  margin: 10px 0 15px 0;
+  font-family: 'Cinzel', serif; }
+
+.galería {
+  width: 100%;
+  padding: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1em; }
+  .galería .imagen {
+    text-align: center; }
+    .galería .imagen .rounded-4 {
+      width: 70%; }
+  .galería .imagen img {
+    width: 100%;
+    gap: 1em; }
+  
+
+.Filosofía {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 50px;
+  gap: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start; }
+
+.hablamos {
+  margin: 50px;
+  padding: 50px;
+  text-align: center;
+  background-color: #ffcfdf;
+  background-image: linear-gradient(315deg, #ffcfdf 0%, #b0f3f1 74%); }
+  
+/*footer*/
+.footer {
+  height: 10%;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+  background-image: linear-gradient(315deg, #f9d29d 0%, #ffd8cb 74%); }
+  .footer .footerlinks {
+    display: flex;
+    flex-direction: column; }
+  .footer .footeredes {
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    font-size: 30px; }
+
+/*sobrenosotros*/
+.completo {
+  margin: 30px 50px 50px 50px; }
+  .completo .titulocontainer {
+    margin-top: 80px;
+    display: flex;
+    width: 100%;
+    justify-content: center; }
+  .completo .preparar {
+    position: relative; }
+ 
+
+.articulo {
+  width: 100%;
+  margin: 50px;
+  padding: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  justify-items: center;
+  align-items: center; }
+  .articulo .transform {
+    transform: rotate(5deg); }
+ 
+
+.section2 {
+  display: flex;
+  width: 100%;
+  margin: 50px;
+  padding: 50px;
+  text-align: center; }
+
+
+/*contactos*/
+.contacto {
+  margin-top: 80px;
+  width: 80%;
+  height: 5%;
+  text-align: center; }
+
+.form-control {
+  background-color: #dccbe0; }
+
+.divinput {
+  width: 500px; }
+
+.grid {
+  gap: 20px;
+  text-decoration-color: black;
+  width: 20%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 50px; }
+  .grid:hover {
+    background-color: #dfdae0; }
+  .grid #icon {
+    width: 45px;
+    font-size: 25px;
+    color: #c41c9f; }
+
+/* AvisoLegal y Privacidad */
+.aviso div {
+  margin-top: 100px;
+  padding: 20px; }
+
+.politica, .privacidad {
+  margin-top: 100px;
+  padding: 20px; }
+
+/* Aplicando media para layout*/
+
+  .filomedia {
+    width: 100%;
+    margin: 0;
+    padding: 20;
+    gap: 20px;
+    display: flex;
+    flex-direction: column; }
+  h1 {
+    font-size: 20px;
+    padding-left: 35px; }
+  .navmenu {
+    height: 10vh; }
+  #natural {
+    background-color: #deb5e9;
+    display: flex;
+    align-content: center; }
+  .section2 {
+    display: flex;
+    width: 100%;
+    margin: 50px 20px 20px 10px;
+    padding: 50px 20px 20px 20px;
+    text-align: center; }
+  .galería {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 1em; }
+  .imagen {
+    text-align: center; }
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    width: 100%;
+    flex-direction: column; } 
+
+    /********************************* Resposnsive By Facu & Thanner *********************************************************** */ */
+    
+    
+    
+    @media screen and (max-width: 780px) {
+      .titulocontenedor .titulocontainer {
+        font-size: 1em; }
+      .titulocontenedor h2 {
+        font-size: 20px; } }
+        .galería {
+          background-color: #e4f0f0;
+          justify-items: center; }
+          .galería .imagen {
+            width: 70%;
+            justify-content: center;
+            gap: 1,5; } 
+            .hablamos .uno {
+              margin: 0;
+              display: none;
+              background-color: #e9e1d7; } 
+      .completo {
+        font-size: 15px; } 
+  
+      .articulo {
+        grid-template-columns: 0fr;
+        gap: 15px;
+        font-size: 15px;
+        margin-top: 0;
+        padding-bottom: 0;
+        background-color: #fae9fa; }
+        .articulo .transform {
+          transform: rotate(5deg); }
+        .articulo .area2 {
+          display: none; }
+        .articulo h3 {
+          color: #4f2fe0; } 
+          .section2 {
+            margin-top: 0;
+            padding-top: 0;
+            font-size: 15px;
+            display: flex;
+            justify-items: center; }
+            .section2 #hola {
+              width: 60%; }
+              .navbar {
+                background-color: aqua; }
+              
+
+    @media screen and (max-width: 360px) {
+      .articulo {
+        background-color: white; } }
+
+
+  
